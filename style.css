@@ -1,0 +1,183 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    background-image: url(IMG_20241103_135256.jpg);
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    display: flex ;
+    background-color: transparent;
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+}
+.logo{
+    width: 100%;
+    position: absolute;
+    color: black;
+    margin-top: 50px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.logo img{
+    text-align: center;
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    color: black;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.content h2{
+    margin-top: 90px;
+    font-size: 50px;
+    font-weight: 800;
+    color: gold;
+}
+.content h3{
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 300;
+    color: gold;
+}
+.header h3{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.wrapper{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parent{
+    width: 37%;
+    margin: 20px;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 6px 6px -1px rgba(218, 134, 9, 0.5);
+    border-radius: 10px;
+}
+.child{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    transition: all 1.1s;
+}
+.foto-one{
+    background-image: url(foto1\ \(1\).jpg);
+}
+.foto-two{
+    background-image: url(foto1\ \(2\).jpg);
+}
+.foto-three{
+    background-image: url(foto1\ \(3\).jpg);
+}
+.foto-four{
+    background-image: url(foto1\ \(4\).jpg);
+}
+.foto-five{
+    background-image: url(foto1\ \(5\).jpg);
+}
+.foto-six{
+    background-image: url(foto1\ \(6\).jpg);
+}
+.foto-seven{
+    background-image: url(foto1\ \(7\).jpg);
+}
+.foto-eight{
+    background-image: url(foto1\ \(8\).jpg);
+}
+.foto-nine{
+    background-image: url(1000163803.jpg);
+}
+.parent:hover .child{
+    transform: scale(1.1);
+}
+.awal h3{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+.AZ-ZAHIR{
+    float: center;
+    margin-left: 350px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    width: 500px;
+    margin-right: 100;
+}
+.andika{
+    float: center;
+    margin-left: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 500px;
+    margin-right: 100; 
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(192, 166, 18);
+}
+.footer h1{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid rgb(24, 23, 23);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px orangered, 0 0 10px orangered;
+    transition: 0.3s ease;
+    margin-top: 15px;
+}
